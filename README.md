@@ -1,7 +1,6 @@
 This repository contains the codebase for simulating and analyzing the Age of Information (AoI) in status update systems. The simulation evaluates three distinct packet management policies in a single-server queueing model to measure their impact on AoI. This repository is a part of the research project aimed at understanding and optimizing AoI in real-time communication systems.
 
 Features
-
 Simulation of AoI: Models the evolution of AoI over time for three packet management policies:
 Policy 1: Discard packets when the server is busy.
 Policy 2: Allow one packet in the queue, discard excess packets.
@@ -22,12 +21,11 @@ Arrival Rate (𝜆
 Service Rate (
 𝜇
 μ): Adjust mu_rate to change the server's processing rate.
-
 Simulation Time: Set total_time to control the duration of the simulation.
 
-Output
+Output -
+
 AoI Evolution Plot:
 Visualizes how AoI changes over time for the three policies.
-
 Bar Chart Comparison:
 Compares the average and peak AoI across the policies.
